@@ -46,3 +46,10 @@
     display: flex;
     justify-content: center;
 }
+
+/*Lesson 1*/
+/* For table */
+table {
+    margin: 0 auto;
+    margin-top: 10%;
+}
