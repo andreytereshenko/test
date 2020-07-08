@@ -53,3 +53,23 @@ table {
     margin: 0 auto;
     margin-top: 10%;
 }
+
+/*Lesson 2*/
+
+/* For colored table*/
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: blue;
+}
+
