@@ -54,6 +54,22 @@ table {
     margin-top: 10%;
 }
 
+/*Button home page*/
+.back_index {
+    border: 1px solid #333; /* Рамка */
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+    margin-top: 8px;
+}
+
+.back_index:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+    color: #a00;
+}
+
 /*Lesson 2*/
 
 /* For colored table*/
@@ -71,5 +87,73 @@ table {
 
 .blue {
     color: blue;
+}
+
+/* Lesson 3 */
+.form_container {
+    display: flex;
+    margin: 0 auto;
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    overflow: auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.result_form_container {
+    display: flex;
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    overflow: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.result_input {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.prev_button {
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    text-decoration: none;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 

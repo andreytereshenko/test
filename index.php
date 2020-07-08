@@ -11,6 +11,7 @@
     <nav class="topnav">
         <a href="app/lesson_1.php">Урок 1</a>
         <a href="app/lesson_2.php">Урок 2</a>
+        <a href="lesson_3.html">Урок 3</a>
     </nav>
 </header>
 

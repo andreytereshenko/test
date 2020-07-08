@@ -18,5 +18,6 @@ for ($first = 1; $first <= 10; $first++) {
     }
 }
 echo "</table>";
+echo " <a href='/' class='back_index'>Назад</a>";
 
 ?>
